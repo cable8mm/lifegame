@@ -50,7 +50,7 @@ export default class MainScene extends Phaser.Scene {
   public update(): void {
     this.graphics?.clear();
     this.cells.forEach((cell) => {
-      this.graphics?.fillStyle(0xffffff);
+      this.graphics?.fillStyle(cell.color);
       cell.active && this.graphics?.fillRectShape(cell);
     });
   }
