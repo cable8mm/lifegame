@@ -6,7 +6,7 @@ export default class Cell extends Phaser.Geom.Rectangle {
   private scene: Phaser.Scene;
 
   private _score: integer = 0;
-  public _color: number = 0x33ff33;
+  private _color: number = 0x33ff33;
 
   constructor(
     scene: Phaser.Scene,
