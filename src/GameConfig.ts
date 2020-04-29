@@ -1,8 +1,8 @@
 enum GameConfig {
-    CELL_COLOR = 0x33ff33,
-    CELL_SEED = 0.1,
-    CELL_SIZE = 10,
-    DELAY_INTERVAL = 100,
+  CELL_COLOR = 0x33ff33,
+  CELL_SEED = 0.1,
+  CELL_SIZE = 2,
+  DELAY_INTERVAL = 0.1,
 }
 
 export default GameConfig;
